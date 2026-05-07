@@ -16,3 +16,10 @@ if (toggle && nav) {
     });
   });
 }
+
+document.querySelectorAll('#primary-navigation a').forEach(link => {
+  const currentPage = location.pathname.split('/').pop() || 'index.html';
+  if (link.getAttribute('href') === currentPage) {
+    link.classList.add('active');
+  }
+});
