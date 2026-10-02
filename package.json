@@ -1,0 +1,32 @@
+{
+  "name": "omd-gittal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "higgsfield:example": "tsx index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjdsimbuque-sudo/omd-gittal-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjdsimbuque-sudo/omd-gittal-website/issues"
+  },
+  "homepage": "https://github.com/gjdsimbuque-sudo/omd-gittal-website#readme",
+  "private": "true",
+  "type": "module",
+  "dependencies": {
+    "@higgsfield/client": "^0.2.6",
+    "dotenv": "^18.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
