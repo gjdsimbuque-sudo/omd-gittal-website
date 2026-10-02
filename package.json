@@ -5,6 +5,7 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "higgsfield:check": "tsx index.ts --check",
     "higgsfield:example": "tsx index.ts"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "type": "module",
   "dependencies": {
     "@higgsfield/client": "^0.2.6",
+    "axios": "^1.20.0",
     "dotenv": "^18.0.5"
   },
   "devDependencies": {
